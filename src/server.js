@@ -1,7 +1,4 @@
 // this is the controller file
-
-// We are creating the Knex instance here so the connection 
-// is explicit rather than implicit
 const knex = require('knex')
 const app = require('./app')
 const { PORT, DB_URL } = require('./config')
